@@ -1,0 +1,206 @@
+---
+title: "Cauê Ennes e Raphael Schithini"
+subtitle: "Nova Friburgo - RJ"
+author:
+date: '12/05/1875'
+output: 
+  html_document:
+     theme: journal
+     toc: true
+     toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **TEODORO E SAMPAIO**
+# *VESTIDO DE SEDA* 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+Meu bem, eu queria que você voltasse  
+
+Ao menos pra buscar  
+
+Alguns objetos, que na despedida  
+
+Você não levou  
+
+Um batom usado caído  
+
+No canto da penteadeira  
+
+Um vestido velho cheio de poeira  
+
+Jogado no quarto com marcas de amor  
+
+Vestido de seda  
+
+O seu manequim também te deixou  
+
+Aí no cantinho não tem mais valor  
+
+Se não tem aquela que tanto te usou  
+
+Eu também não passo de um trapo humano  
+
+Sem minha querida  
+
+Usado e jogado num canto da vida  
+
+Não sei o que faço sem meu grande amor  
+
+Eu já nem acendo a luz do meu quarto  
+
+Quando vou deitar  
+
+Porque no escuro não vejo no espelho  
+
+Meus olhos chorando  
+
+Não vou na cozinha  
+
+Pra não ver dois copos vazios na mesa  
+
+Fazendo lembrar com tanta tristeza  
+
+Da última noite que nós nos amamos  
+
+Vestido de seda  
+
+O seu manequim também te deixou  
+
+Aí no cantinho não tem mais valor  
+
+Se não tem aquela que tanto te usou  
+
+Eu também não passo de um trapo humano  
+
+Sem minha querida  
+
+Usado e jogado num canto da vida  
+
+Não sei o que faço sem meu grande amor
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+# *PAIXÃO PROÍBIDA*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+Querida, nós nos enganamos  
+
+Com nossos sentimentos  
+
+Nem eu nem você conseguiu cumprir o juramento  
+
+Num gesto apressado você com alguém se casou  
+
+Eu pra vingar também fiz um falso casamento  
+
+Agora amar em segredo é uma traição  
+
+Não deixe seu homem saber da nossa paixão  
+
+E quando ele for te abraçar na hora do amor  
+
+Finja que está feliz  
+
+Não deixe ele perceber  
+
+Que ao invés de prazer você sente pavor  
+
+E quando no rádio tocar a nossa canção  
+
+Você foi a caso mais antigo  
+
+O amor mais amigo que me aconteceu  
+
+Se ele estiver por perto e você sentir medo  
+
+Esconda no quarto e chore seu pranto sentido  
+
+Depois, disfarçando, abrace seu marido  
+
+Não deixe que os olhos contem seu segredo  
+
+Amor, a vida é desse jeito  
+
+Teremos que ocultar no peito  
+
+A nossa paixão proibida  
+
+Amor, estamos condenados  
+
+A amar separados pro resto da vida  
+
+Uhu (Sigura)  
+
+(Ô, Teo, vai, Teo)  
+
+E quando no rádio tocar a nossa canção  
+
+Você foi a caso mais antigo  
+
+O amor mais amigo que me aconteceu  
+
+Se ele estiver por perto e você sentir medo  
+
+Se esconda no quarto e chore seu pranto sentido  
+
+Depois, disfarçando, abrace seu marido  
+
+Não deixe que os olhos contem seu segredo  
+
+Amor, a vida é desse jeito  
+
+Teremos que ocultar no peito  
+
+A nossa paixão proibida  
+
+Amor, estamos condenados  
+
+A amar separados pro resto da vida
+
+# *GATO DANÇANTE*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+![](https://media.giphy.com/media/CnVSvvHyslUkM/giphy.gif)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+# *POODLE*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+![](https://media.giphy.com/media/nT5udSPy3Ocjm/giphy.gif)
+
+# *NUVEM DE PALAVRAS*
+
+```{r}
+library(wordcloud2)
+wordcloud2(demoFreq)
+```
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+# *MECÂNICAS TOPÁZIO*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+![](https://www.topaziocarservice.com.br/wp-content/uploads/2020/08/Oficina-Mecanica-em-Osasco-SP-Topazio-Car-Service-34.jpg)
+
+```{r}
+library(leaflet)
+leaftlet() %>%
+  addtitles %>%
+  addCircles(lng=-42.5292995,lat=-22.2944243,
+             label = "MECÂNICAS TOPÁZIO LOCALIZAÇÃO",
+               popup="MECÂNICAS TOPÁZIO")
+  
+```
